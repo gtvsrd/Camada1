@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+  color: black;
+  font-family: "Fira Sans";
+}
+nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid red;
+  border-radius: 100px;
+  margin-bottom: 8px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+ul li a:hover {
+  font-weight: 400;
+}
+h1 {
+  font-weight: 400;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+}
+#content {
+  width: 75%;
+}
+#widgets {
+  width: 25%;
+}
+footer {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#content,
+#widgets,
+footer {
+  border-radius: 100px;
+  background-color: white;
+  border: 1px solid red;
+}
